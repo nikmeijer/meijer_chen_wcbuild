@@ -146,16 +146,20 @@ footer {
   left: 0;
 
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url('../images/Cap_LB_Bg.png');
+  background-image: url('../images/Mathew_Ryan_Australia.png');
   background-repeat: no-repeat;
 
   background-size: 55vh; /* 55% of the viewport height */
-  background-position: 40px bottom;
+  background-position: 40px;
 
   display: none;
 }
 
-#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+#lightbox1 { background-image: url('../images/Alphonso_Davies_Canada.png'); }
+#lightbox2 { background-image: url('../images/Mateo_Kovacic_Croatia.png'); }
+#lightbox3 { background-image: url('../images/Jerome_Boateng_Germany.png'); }
+#lightbox4 { background-image: url('../images/Shehri_Saudi.png'); }
+#lightbox5 { background-image: url('../images/Virgil_van_Dijk_Netherlands.png'); }
 
 .lightbox_close {
   position: relative;

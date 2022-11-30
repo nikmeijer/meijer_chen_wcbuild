@@ -80,19 +80,19 @@ article p {
 }
 
 .sprite {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
   
-  background-image: url('../images/marvelSprites.jpg');
+  background-image: url(../images/worldcupSprites.png);
 }
 
-#carol { background-position: -150px 0; }
-#clint { background-position: -300px 0; }
-#hulk { background-position: -450px 0; }
-#thor { background-position: -600px 0; }
-#widow { background-position: -750px 0; }
+#carol { background-position: -300px 0; }
+#clint { background-position: -600px 0; }
+#hulk { background-position: -900px 0; }
+#thor { background-position: -1200px 0; }
+#widow { background-position: -1800px 0; }
 
-.sprite:hover { background-position-y: -150px !important; }
+.sprite:hover { background-position-y: -200px !important; }
 
 /* footer rules here */
 footer {

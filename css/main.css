@@ -26,44 +26,69 @@ header {
   position: sticky;
   top: 0;
   display: flex;
-  justify-content: end;
+  justify-content: middle;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 10px;
 }
 
 #main-logo { width: 220px; padding: 10px 20px; margin-left: auto; }
 
 /* main rules here */
-#character-nav { margin-left: 20%; max-width: 60%;}
+#team-nav { margin-left: 20%; max-width: 60%;}
 
-.characters { list-style-type: none; }
+.teams { list-style-type: none; }
 
-.characters li { 
+.teams li { 
   display: inline-block;
-  height: 220px;
+  position: relative;
+  width: 300px;
+  height: 250px;
   margin: 10px 8px;
-
-  background-color: black;
-
+  background-color: rgba(4, 54, 67, 0.5);
   text-align: left;
+  overflow: hidden;
 
   cursor: pointer;
 }
 
-.characters li h5 {
+.teams li a span {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
   color: white;
-  padding: 12px 8px;
+  font-weight: bold;
 }
 
-.characters li a { text-decoration: none; }
-
-.red_bumper {
+.blue_bumper {
   width: 100%;
   height: 6px;
-  background-color: red;
+  background-color: rgb(91, 186, 210);
+}
+
+input[type="checkbox"] {
+  height: 18px;
+  width: 20px;
+  display: inline-block;
+  margin-right: 8px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+input[type="checkbox"]:checked + span{
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(91, 186, 210, 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: 2px solid rgb(91, 186, 210);
 }
 
 article { 
   padding: 20px;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 
 /* select the h3 tag inside the article tag on the page */
@@ -71,6 +96,7 @@ article {
 article h3  {
   font-size: 2.5em;
   margin-bottom: 14px;
+  margin-left: 175px;
 }
 
 /* select the p tag inside the article tag on the page */
@@ -86,11 +112,11 @@ article p {
   background-image: url(../images/worldcupSprites.png);
 }
 
-#carol { background-position: -300px 0; }
-#clint { background-position: -600px 0; }
-#hulk { background-position: -900px 0; }
-#thor { background-position: -1200px 0; }
-#widow { background-position: -1800px 0; }
+#canada { background-position: -300px 0; }
+#croatia { background-position: -600px 0; }
+#germany { background-position: -900px 0; }
+#saudi { background-position: -1200px 0; }
+#netherlands { background-position: -1500px 0; }
 
 .sprite:hover { background-position-y: -200px !important; }
 
